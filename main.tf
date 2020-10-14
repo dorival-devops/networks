@@ -5,7 +5,7 @@
  
  resource "aws_subnet" "jlearning" {
    vpc_id     = "${aws_vpc.jlearning.id}"
-   cidr_block = "11.0.1.0/24"
+   cidr_block = "11.0.99.0/24"
  
    tags = {
      projeto = "jlearning"
